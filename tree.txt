@@ -1,39 +1,30 @@
 .
+├── README.md
 ├── amplify
 │   ├── #current-cloud-backend
-│   │   ├── auth
-│   │   │   └── nflbetsd1c89b8a
-│   │   │       └── build
-│   │   ├── awscloudformation
-│   │   │   └── build
-│   │   │       ├── auth
-│   │   │       │   └── nflbetsd1c89b8a
-│   │   │       │       └── build
-│   │   │       ├── awscloudformation
-│   │   │       │   └── build
-│   │   │       └── hosting
-│   │   │           └── S3AndCloudFront
-│   │   └── hosting
-│   │       └── S3AndCloudFront
+│   ├── README.md
 │   ├── backend
-│   │   ├── auth
-│   │   │   └── nflbetsd1c89b8a
-│   │   │       └── build
-│   │   ├── awscloudformation
-│   │   │   └── build
-│   │   │       ├── auth
-│   │   │       │   └── nflbetsd1c89b8a
-│   │   │       │       └── build
-│   │   │       ├── awscloudformation
-│   │   │       │   └── build
-│   │   │       └── hosting
-│   │   │           └── S3AndCloudFront
-│   │   ├── hosting
-│   │   │   └── S3AndCloudFront
-│   │   └── types
-│   └── hooks
+│   ├── cli.json
+│   ├── hooks
+│   └── team-provider-info.json
 ├── build
+│   ├── favicon.ico
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── package-lock.json
+├── package.json
 ├── public
-└── src
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   └── pages
+├── tree.txt
+└── tsconfig.json
 
-37 directories
+9 directories, 19 files
