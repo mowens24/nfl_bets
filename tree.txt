@@ -1,0 +1,39 @@
+.
+├── amplify
+│   ├── #current-cloud-backend
+│   │   ├── auth
+│   │   │   └── nflbetsd1c89b8a
+│   │   │       └── build
+│   │   ├── awscloudformation
+│   │   │   └── build
+│   │   │       ├── auth
+│   │   │       │   └── nflbetsd1c89b8a
+│   │   │       │       └── build
+│   │   │       ├── awscloudformation
+│   │   │       │   └── build
+│   │   │       └── hosting
+│   │   │           └── S3AndCloudFront
+│   │   └── hosting
+│   │       └── S3AndCloudFront
+│   ├── backend
+│   │   ├── auth
+│   │   │   └── nflbetsd1c89b8a
+│   │   │       └── build
+│   │   ├── awscloudformation
+│   │   │   └── build
+│   │   │       ├── auth
+│   │   │       │   └── nflbetsd1c89b8a
+│   │   │       │       └── build
+│   │   │       ├── awscloudformation
+│   │   │       │   └── build
+│   │   │       └── hosting
+│   │   │           └── S3AndCloudFront
+│   │   ├── hosting
+│   │   │   └── S3AndCloudFront
+│   │   └── types
+│   └── hooks
+├── build
+├── public
+└── src
+
+37 directories
