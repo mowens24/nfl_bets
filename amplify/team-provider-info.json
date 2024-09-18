@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nflbets-dev-10f06-authRole",
+      "UnauthRoleArn": "arn:aws:iam::552707660081:role/amplify-nflbets-dev-10f06-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::552707660081:role/amplify-nflbets-dev-10f06-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-nflbets-dev-10f06-deployment",
+      "UnauthRoleName": "amplify-nflbets-dev-10f06-unauthRole",
+      "StackName": "amplify-nflbets-dev-10f06",
+      "StackId": "arn:aws:cloudformation:us-east-2:552707660081:stack/amplify-nflbets-dev-10f06/d6698dd0-7550-11ef-9ed7-02846cd5b029",
+      "AmplifyAppId": "d1bogk9ykmc3a5"
+    },
+    "categories": {
+      "auth": {
+        "nflbetsd1c89b8a": {}
+      }
+    }
+  }
+}
