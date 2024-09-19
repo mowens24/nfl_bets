@@ -4,11 +4,11 @@ import React from 'react';
 import { Button, SpaceBetween, TextFilter } from '@cloudscape-design/components';
 import ItemsPalette, { ItemsPaletteProps } from '@cloudscape-design/board-components/items-palette';
 import { useCollection } from '@cloudscape-design/collection-hooks';
-import { EmptyState } from './dashboard/components/empty-state.tsx';
-import { WidgetDataType } from './dashboard/widgets/interfaces.ts';
+import { EmptyState } from '../dashboard/components/empty-state';
+import { WidgetDataType } from '../dashboard/widgets/interfaces.ts';
 import { PaletteItem } from './palette-item';
 import { paletteI18nStrings } from '../i18n-strings';
-import { getTextFilterCounterText } from '../i18n-strings';
+import { getTextFilterCounterText } from '/Users/mwo/nfl_bets/src/i18n-strings';
 
 function compareStrings(value: string, query: string) {
   return value.toLowerCase().includes(query.toLowerCase());

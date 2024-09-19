@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import { BoardProps, ItemsPaletteProps, BoardItemProps } from '@cloudscape-design/board-components';
 import { WidgetDataType } from './dashboard/widgets/interfaces';
+import { Operation } from '@cloudscape-design/board-components/internal/dnd-controller/controller';
 
 export const boardItemI18nStrings: BoardItemProps.I18nStrings = {
   dragHandleAriaLabel: 'Drag handle',
@@ -63,3 +64,11 @@ export const paletteI18nStrings: ItemsPaletteProps.I18nStrings<WidgetDataType> =
   liveAnnouncementDndStarted: 'Dragging',
   liveAnnouncementDndDiscarded: 'Insertion discarded',
 };
+
+
+export const getTextFilterCounterServerSideText = (items = [], pagesCount: number, pageSize: number) => {
+  const count = pagesCount > 1 ? `${pageSize * (pagesCount - 1)}+` : items.length + '';
+  return count === '1' ? `1 match` : `${count} matches`;
+};
+
+export const getTextFilterCounterText = (count: number) => `${count} ${count === 1 ? 'match' : 'matches'}`;
