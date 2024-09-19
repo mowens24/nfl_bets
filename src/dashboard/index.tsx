@@ -12,7 +12,7 @@ import '@cloudscape-design/global-styles/dark-mode-utils.css';
 import '../../styles/base.scss';
 
 import { DashboardHeader, DashboardMainInfo } from './components/header';
-import { CustomAppLayout } from '../commons/common-components';
+import { CustomAppLayout } from '../commons/common-components.tsx';
 import { DashboardSideNavigation } from './components/side-navigation';
 import { Breadcrumbs, Notifications, HelpPanelProvider } from '../commons';
 import {
