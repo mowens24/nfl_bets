@@ -14,8 +14,8 @@ import {
   operationalMetrics,
   zoneStatus,
   featuresSpotlight,
-} from '../dashboard/widgets';
-import { DashboardWidgetItem, WidgetConfig, WidgetDataType } from '../dashboard/widgets/interfaces';
+} from './pages/dashboard/widgets';
+import { DashboardWidgetItem, WidgetConfig, WidgetDataType } from './pages/dashboard/widgets/interfaces';
 
 export type { DashboardWidgetItem };
 export { PaletteItem } from './components/palette-item';

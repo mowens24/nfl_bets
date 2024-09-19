@@ -4,11 +4,11 @@ import React, { useRef, useState } from 'react';
 import { AppLayoutProps } from '@cloudscape-design/components/app-layout';
 import SplitPanel from '@cloudscape-design/components/split-panel';
 
-import { Breadcrumbs, Notifications, HelpPanelProvider } from '../commons';
-import { useLocalStorage } from '../commons/use-local-storage';
-import { DashboardMainInfo } from '../dashboard/components/header';
-import { CustomAppLayout } from '../commons/common-components';
-import { DashboardSideNavigation } from '../dashboard/components/side-navigation';
+import { Breadcrumbs, Notifications, HelpPanelProvider } from './pages/commons';
+import { useLocalStorage } from './pages/commons/use-local-storage';
+import { DashboardMainInfo } from './pages/dashboard/components/header';
+import { CustomAppLayout } from './pages/commons/common-components';
+import { DashboardSideNavigation } from './pages/dashboard/components/side-navigation';
 import { getPaletteWidgets } from './widgets';
 import Palette from './components/palette';
 import { Content } from './content';
