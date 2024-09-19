@@ -1,12 +1,12 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import SpaceBetween from '@cloudscape-design/components/space-between';
-import { DashboardHeader } from '../dashboard/components/header';
+import { DashboardHeader } from './pages/dashboard/components/header';
 import { ResetButton } from './components/reset-button';
 import Button from '@cloudscape-design/components/button';
 import { PageBanner } from './components/page-banner';
 import Board from '@cloudscape-design/board-components/board';
-import { EmptyState } from '../dashboard/components/empty-state';
+import { EmptyState } from './pages/dashboard/components/empty-state';
 import { boardI18nStrings } from './i18n-strings';
 import { exportLayout, getBoardWidgets, getDefaultLayout } from './widgets';
 import React, { useEffect, useRef } from 'react';
