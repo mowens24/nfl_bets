@@ -12,7 +12,7 @@ import {
 } from '@cloudscape-design/components';
 import { WidgetConfig } from '../interfaces';
 import { eventsItems } from './data';
-import { isVisualRefresh } from '../../../../common/apply-mode';
+// import { isVisualRefresh } from '../../../../common/apply-mode';
 
 export const events: WidgetConfig = {
   definition: { defaultRowSpan: 4, defaultColumnSpan: 2 },
@@ -20,7 +20,7 @@ export const events: WidgetConfig = {
     icon: 'table',
     title: 'Events',
     description: 'View your service events',
-    disableContentPaddings: !isVisualRefresh,
+    // disableContentPaddings: !isVisualRefresh,
     header: EventsHeader,
     content: EventsContent,
     footer: EventsFooter,

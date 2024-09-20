@@ -4,10 +4,10 @@ import React from 'react';
 import Header from '@cloudscape-design/components/header';
 import BoardItem from '@cloudscape-design/board-components/board-item';
 import Box from '@cloudscape-design/components/box';
-import { EmptyState } from '../../../dashboard/components/empty-state';
+import { EmptyState } from '../../dashboard/components/empty-state';
 import { boardItemI18nStrings } from '../../i18n-strings';
-import * as icons from '../../../dashboard/icons';
-import styles from './styles.module.scss';
+import * as icons from '../../dashboard/icons';
+// import styles from './../styles.module.scss';
 
 type IconName = keyof typeof icons;
 

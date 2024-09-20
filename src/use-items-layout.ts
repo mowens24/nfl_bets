@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import { useEffect, useRef, useState } from 'react';
 import { useContainerQuery } from '@cloudscape-design/component-toolkit';
-//import { load, remove, save } from './pages/commons/localStorage';
+import { load, remove, save } from './common/localStorage';
 import { getDefaultLayout } from './widgets';
 import { StoredWidgetPlacement } from './interfaces';
 

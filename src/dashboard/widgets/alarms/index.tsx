@@ -7,7 +7,7 @@ import StatusIndicator, { StatusIndicatorProps } from '@cloudscape-design/compon
 import Table, { TableProps } from '@cloudscape-design/components/table';
 import Box from '@cloudscape-design/components/box';
 import Button from '@cloudscape-design/components/button';
-import { isVisualRefresh } from '../../../../common/apply-mode';
+// import { isVisualRefresh } from './common/apply-mode';
 import { WidgetConfig } from '../interfaces';
 
 export const alarms: WidgetConfig = {
@@ -16,7 +16,7 @@ export const alarms: WidgetConfig = {
     icon: 'table',
     title: 'Alarms',
     description: 'View all your alarms',
-    disableContentPaddings: !isVisualRefresh,
+    //disableContentPaddings: !isVisualRefresh,
     header: AlarmsHeader,
     content: AlarmsContent,
     footer: AlarmsFooter,

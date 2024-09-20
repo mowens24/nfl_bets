@@ -201,8 +201,9 @@ export function DashboardSideNavigation() {
 
   return (
     <>
-      <CommonNavigation items={navItems} activeHref="#/" onFollowHandler={onFollowHandler} />
-      {dialogVisible && <DensityPreferencesDialog onDismiss={() => setDialogVisible(false)} />}
-    </>
+       <CommonNavigation items={navItems} activeHref="#/" onFollowHandler={onFollowHandler} />
+       {dialogVisible && <DensityPreferencesDialog onDismiss={() => setDialogVisible(false)} />}
+  //  </>
   );
 }
+ 

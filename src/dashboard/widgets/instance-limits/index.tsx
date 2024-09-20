@@ -12,7 +12,7 @@ import {
   TableProps,
 } from '@cloudscape-design/components';
 import { WidgetConfig } from '../interfaces';
-import { isVisualRefresh } from '../../../../common/apply-mode';
+// import { isVisualRefresh } from '../../common/apply-mode';
 
 export const instanceLimits: WidgetConfig = {
   definition: { defaultRowSpan: 3, defaultColumnSpan: 2 },
@@ -20,7 +20,7 @@ export const instanceLimits: WidgetConfig = {
     icon: 'table',
     title: 'Instance limits',
     description: 'Current utilization of instance types',
-    disableContentPaddings: !isVisualRefresh,
+    //disableContentPaddings: !isVisualRefresh,
     provider: InstanceLimitsProvider,
     header: InstanceLimitsHeader,
     content: InstanceLimitsContent,

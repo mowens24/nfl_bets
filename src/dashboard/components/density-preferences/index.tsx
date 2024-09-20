@@ -8,7 +8,7 @@ import Button from '@cloudscape-design/components/button';
 import FormField from '@cloudscape-design/components/form-field';
 import Tiles from '@cloudscape-design/components/tiles';
 import Modal from '@cloudscape-design/components/modal';
-import { currentDensity, updateDensity } from '../../../../common/apply-mode';
+import { currentDensity, updateDensity } from '../../../common/apply-mode';
 import { comfortableModeImage, compactModeImage } from './images';
 
 interface DensityPreferencesDialogProps {
@@ -28,7 +28,7 @@ export function DensityPreferencesDialog({ onDismiss }: DensityPreferencesDialog
       onDismiss={() => onDismiss()}
       visible={true}
       size="medium"
-      closeAriaLabel="Close modal"
+     closeAriaLabel="Close modal"
       footer={
         <Box float="right">
           <SpaceBetween direction="horizontal" size="xs">
@@ -37,13 +37,13 @@ export function DensityPreferencesDialog({ onDismiss }: DensityPreferencesDialog
             </Button>
             <Button variant="primary" onClick={handleSubmit}>
               Confirm
-            </Button>
+           </Button>
           </SpaceBetween>
         </Box>
       }
       header="Density settings"
     >
-      <FormField label="Content density" description="Choose the preferred level of content density for this console.">
+     <FormField label="Content density" description="Choose the preferred level of content density for this console.">
         <Tiles
           onChange={({ detail }) => setValue(detail.value as Density)}
           value={value}
