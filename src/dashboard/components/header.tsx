@@ -11,11 +11,11 @@ export function DashboardMainInfo() {
       footer={
         <ExternalLinkGroup
           items={[
-            { href: '#', text: 'User Guide for Linux Instances' },
-            { href: '#', text: 'User Guide for Windows Instances' },
-            { href: '#', text: 'API Reference' },
-            { href: '#', text: 'EC2 section of the AWS CLI Reference' },
-            { href: '#', text: 'EC2 Instance Connect API Reference' },
+            { href: '#', text: 'N/A' },
+            { href: '#', text: 'N/A' },
+            { href: '#', text: 'N/A' },
+            { href: '#', text: 'N/A' },
+            { href: '#', text: 'N/A' },
           ]}
         />
       }
