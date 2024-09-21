@@ -12,7 +12,7 @@ const navItems: SideNavigationProps['items'] = [
   { type: 'link', text: 'Dashboard', href: '#/' },
   {
     type: 'link',
-    text: 'Events',
+    text: 'N/A',
     href: '#/events',
     info: (
       <Box color="text-status-info" variant="span">
@@ -49,18 +49,18 @@ const navItems: SideNavigationProps['items'] = [
       </Box>
     ),
   },
-  { type: 'link', text: 'Tags', href: '#/tags' },
-  { type: 'link', text: 'Reports', href: '#/reports' },
-  { type: 'link', text: 'Limits', href: '#/limits' },
+  { type: 'link', text: 'N/A', href: '#/tags' },
+  { type: 'link', text: 'N/A', href: '#/reports' },
+  { type: 'link', text: 'N/A', href: '#/limits' },
   {
-    text: 'Instances',
+    text: '',
     type: 'section',
     defaultExpanded: true,
     items: [
-      { type: 'link', text: 'Instances', href: '#/instances' },
+      { type: 'link', text: 'N/A', href: '#/instances' },
       {
         type: 'link',
-        text: 'Launch templates',
+        text: 'N/A',
         href: '#/launch_templates',
         info: (
           <Box color="text-status-info" variant="span">
@@ -93,12 +93,12 @@ const navItems: SideNavigationProps['items'] = [
           </Box>
         ),
       },
-      { type: 'link', text: 'Spot requests', href: '#/spot_requests' },
-      { type: 'link', text: 'Reserved instances', href: '#/reserved_instances' },
-      { type: 'link', text: 'Dedicated hosts', href: '#/dedicated_hosts' },
+      { type: 'link', text: 'N/A', href: '#/spot_requests' },
+      { type: 'link', text: 'N/A', href: '#/reserved_instances' },
+      { type: 'link', text: 'N/A', href: '#/dedicated_hosts' },
       {
         type: 'link',
-        text: 'Scheduled instances',
+        text: 'N/A',
         href: '#/scheduled_instances',
         info: (
           <Box color="text-status-info" variant="span">
@@ -130,56 +130,56 @@ const navItems: SideNavigationProps['items'] = [
           </Box>
         ),
       },
-      { type: 'link', text: 'Capacity reservations', href: '#/capacity_reservations' },
+      { type: 'link', text: 'N/A', href: '#/capacity_reservations' },
     ],
   },
   {
-    text: 'Images',
+    text: 'N/A',
     type: 'section',
     defaultExpanded: false,
     items: [
-      { type: 'link', text: 'AMIs', href: '#/amis' },
-      { type: 'link', text: 'Bundle tasks', href: '#/bundle_tasks' },
+      { type: 'link', text: 'N/A', href: '#/amis' },
+      { type: 'link', text: 'N/A', href: '#/bundle_tasks' },
     ],
   },
   {
-    text: 'Elastic block store',
+    text: 'N/A',
     type: 'section',
     defaultExpanded: false,
     items: [
-      { type: 'link', text: 'Volumes', href: '#/volumes' },
-      { type: 'link', text: 'Snapshots', href: '#/snapshots' },
-      { type: 'link', text: 'Lifecycle manager', href: '#/lifecycle_manager' },
+      { type: 'link', text: 'N/A', href: '#/volumes' },
+      { type: 'link', text: 'N/A', href: '#/snapshots' },
+      { type: 'link', text: 'N/A', href: '#/lifecycle_manager' },
     ],
   },
   {
-    text: ' Network & security',
+    text: 'N/A',
     type: 'section',
     defaultExpanded: false,
     items: [
-      { type: 'link', text: 'Security groups', href: '#/security_groups' },
-      { type: 'link', text: 'Elastic IPs', href: '#/elastic_ips' },
-      { type: 'link', text: 'Placement groups', href: '#/placement_groups' },
-      { type: 'link', text: 'Key pairs', href: '#/key_pairs' },
-      { type: 'link', text: 'Network interfaces', href: '#/network_interfaces' },
+      { type: 'link', text: 'N/A', href: '#/security_groups' },
+      { type: 'link', text: 'N/A', href: '#/elastic_ips' },
+      { type: 'link', text: 'N/A', href: '#/placement_groups' },
+      { type: 'link', text: 'N/A', href: '#/key_pairs' },
+      { type: 'link', text: 'N/A', href: '#/network_interfaces' },
     ],
   },
   {
-    text: 'Load balancing',
+    text: 'N/A',
     type: 'section',
     defaultExpanded: false,
     items: [
-      { type: 'link', text: 'Load balancers', href: '#/load_balancers' },
-      { type: 'link', text: 'Target groups', href: '#/target_groups' },
+      { type: 'link', text: 'N/A', href: '#/load_balancers' },
+      { type: 'link', text: 'N/A', href: '#/target_groups' },
     ],
   },
   {
-    text: 'Auto scaling',
+    text: 'N/A',
     type: 'section',
     defaultExpanded: false,
     items: [
-      { type: 'link', text: 'Launch configurations', href: '#/launch_configurations' },
-      { type: 'link', text: 'Auto scaling groups', href: '#/auto_scaling_groups' },
+      { type: 'link', text: 'N/A', href: '#/launch_configurations' },
+      { type: 'link', text: 'N/A', href: '#/auto_scaling_groups' },
     ],
   },
   { type: 'divider' },
