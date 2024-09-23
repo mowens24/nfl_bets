@@ -9,7 +9,7 @@ export const serviceOverview: WidgetConfig = {
   definition: { defaultRowSpan: 2, defaultColumnSpan: 3 },
   data: {
     icon: 'list',
-    title: 'Service overview',
+    title: 'Data',
     description: 'Overview of all your resources',
     header: ServiceOverviewHeader,
     content: ServiceOverviewWidget,
@@ -18,8 +18,8 @@ export const serviceOverview: WidgetConfig = {
 
 function ServiceOverviewHeader() {
   return (
-    <Header variant="h2" description="Viewing data from N. Virginia region">
-      Service overview - <em>new</em>
+    <Header variant="h2" description="NFL API streaming Data">
+      Transactions - <em>new</em>
     </Header>
   );
 }

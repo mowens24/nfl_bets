@@ -10,8 +10,8 @@ export const networkTraffic: WidgetConfig = {
   definition: { defaultRowSpan: 4, defaultColumnSpan: 2, minRowSpan: 3 },
   data: {
     icon: 'lineChart',
-    title: 'Network traffic',
-    description: 'Incoming and outgoing network traffic',
+    title: 'N/A',
+    description: 'N/A',
     header: NetworkTrafficHeader,
     content: NetworkTrafficContent,
     staticMinHeight: 560,
@@ -39,7 +39,7 @@ export default function NetworkTrafficContent() {
       xScaleType="time"
       xTitle="Time (UTC)"
       yTitle="Data transferred"
-      ariaLabel="Network traffic"
+      ariaLabel="P & L"
       ariaDescription={`Line chart showing transferred data of all your instances. ${lineChartInstructions}`}
       i18nStrings={{
         ...commonChartProps.i18nStrings,
