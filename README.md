@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# AWS Configurable Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an AWS-configurable dashboard designed to provide customizable insights for users. The goal is to help users visualize and interact with data through a flexible, easy-to-use interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Configurable dashboard for customizing the displayed data
+- Frontend built with React and TypeScript, originally connected via AWS Amplify (now disconnected)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run this project locally, clone the repository and install the dependencies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+# Clone the repository
+git clone https://github.com/mowens24/nfl_bets.git
 
-### `npm test`
+# Change to the project directory
+cd nfl_bets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Install the required dependencies
+npm install
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Access the application at `http://localhost:3000` to view and configure the dashboard.
 
-### `npm run eject`
+## Notes on AWS Services
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Originally, the frontend was connected through AWS Amplify. Due to cost constraints, these services have been disconnected, and the project now runs locally.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
